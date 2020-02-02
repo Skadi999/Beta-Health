@@ -1,0 +1,16 @@
+[
+{
+  "modid": "betahealth",
+  "name": "Beta Health",
+  "description": "Brings back the health system from beta",
+  "version": "1.0.2",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Lemons"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
