@@ -49,7 +49,7 @@ public class BetaHealth
         Config.readConfig();
 
     }
-	//sets stack to 1
+	//sets default stack size
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event)
 	{
@@ -114,7 +114,7 @@ public class BetaHealth
 		player.heal(amt);
 		player.world.playSound(null, player.posX, player.posY, player.posZ, SoundEvents.ENTITY_PLAYER_BURP, SoundCategory.PLAYERS, 0.5F, player.world.rand.nextFloat() * 0.1F + 0.9F);
 	}
-	//makes the hunger 5 by default?
+	//sets default hunger amount
 	@SubscribeEvent
 	public static void setHunger(TickEvent.PlayerTickEvent event)
 	{
